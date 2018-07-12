@@ -1,0 +1,8 @@
+* { font-family: monospace, Arial; }
+.logo {
+  position: fixed;
+  bottom:5px;
+  right:5px;
+  color:#555;
+  font-size:12px;
+}
