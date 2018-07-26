@@ -1,0 +1,108 @@
+/* Styles go here */
+#reg_form{
+  display: none;
+}
+#edit{
+  display:none;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  background-color: aqua;
+  padding: 10px;
+  border-radius: 15px;
+  width:70%;
+  border:4px solid #4CAF50;
+}
+#edit_photo{
+  min-width: 200px;
+  width:97%;
+}
+#change_button{
+  margin-top:20px;
+}
+form{
+ margin:auto;
+ width:50%;
+ min-width:350px;
+}
+p{
+  display: block
+}
+label{
+  display:inline-block;
+  width:80px;
+
+}
+a{
+  display:inline-block;
+  background-color: black;
+  color:white;
+  padding:5px;
+  margin-top:10px;
+  text-decoration: none;
+}
+fieldset{
+  border-radius: 10px;
+   background-color: #00FFFF
+}
+legend{
+  font-weight: bold;
+  font-size:120%;
+}
+fieldset + button:hover {
+  background-color: #3e8e41
+}
+fieldset > button:hover, #change_button:hover{
+  background-color: #434343;
+}
+fieldset + button{
+
+  padding: 10px 15px;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 10px;
+}
+fieldset> button, #change_button{
+  padding: 5px 8px;
+  font-size: 120%;
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
+  background-color: black;
+  border: none;
+  border-radius: 10px;
+}
+form + div{
+  position: relative;
+  display: none;
+  margin:auto;
+  width:500px;
+  height:500px;
+  padding: 5px;
+  border: 4px solid aqua;
+  border-radius: 20px;
+}
+div > button{
+  padding: 10px 15px;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius:15px;
+}
+img{
+  margin-top:5px;
+  display:block;
+  border-radius: 15px;
+}
+@media only screen and (max-width: 550px){
+  #main{
+    width:95%;
+  }

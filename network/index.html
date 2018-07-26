@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/sha.js"></script>
+  </head>
+
+  <body>
+  <div class=wrapper>
+   <form id = "reg_form" action="action.php" enctype="text/plain">
+		<fieldset>
+	    	<legend>Регистрация</legend>
+	    	<p><label for="name">Name</label><input type="text" id="name"></p>
+	    	<p><label for="email">E-mail</label><input type="text" id="mail"></p>
+	    	<p><label for="pasw">Password</label><input type="password" id="pasw"></p>
+	    	<button type="button" onclick= insertUser() >let's go</button>
+		</fieldset>
+		<button onclick = showSignForm() id = "sign_button" type="button">Есть аккаунт?</button>
+	</form>
+	<form id = "sign_form" action="action.php" enctype="text/plain">
+		<fieldset>
+	    	<legend>Вход</legend>
+	    	<p><label for="mail">E-mail</label><input name = "mail" type="text" id="sign_mail"></p>
+	    	<p><label for="pasw">Password</label><input type="password" id="sign_pasw"></p>
+	    	<button onclick = signIn() type="button"  >let's go</button>
+		</fieldset>
+		<button onclick = showRegForm() id = "reg_button" type="button">Не зарегистрированы?</button>
+		</form>
+	<div id ="main">
+		<button onclick = "changeData()">Изменить данные</button>
+		<button id= "exit" onclick = "logOff()">выход</button>
+		<p id = user_mail></p>
+		<p id = user_name></p>
+		<img src="" alt="" width=150>
+		<form id="edit"action="action.php">
+			<label for="name">Новое имя</label><p><input name = nametype="text" id="edit_name"></p>
+	    	<label for="photo">url фотки:</label><p><input name = "photo" type="text" id="edit_photo"></p>
+	    	<button id = "change_button" onclick = applyChanges() type="button">Изменить</button>
+		</form>	
+	</div>
+	<script src ="js/script.js"></script>
+  </div>
+  </body>
+
+</html>
