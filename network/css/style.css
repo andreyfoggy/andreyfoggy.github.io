@@ -97,6 +97,9 @@ div > button{
   border: none;
   border-radius:15px;
 }
+div > button:hover{
+  background-color: #3e8e41
+}
 img{
   margin-top:5px;
   display:block;
