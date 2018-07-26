@@ -15,7 +15,10 @@ function insertUser(){
 
   	if ( !mail.value || !pasw.value ) return
 
-  	if( users.find(x=>{return (mail.value==x.mail)}) != undefined ) return
+  	if( users.find(x=>{return (mail.value==x.mail)}) != undefined ){
+  		alert("Вы уже зарегистрированы")
+  		return
+  	}
  	 user.name = name.value
      user.mail = mail.value
      user.key = Sha256.hash ( mail.value + pasw.value )
@@ -31,8 +34,10 @@ function signIn(){
 
 	if ( !mail.value || !pasw.value ) return
 	var user = users.findIndex(x=>{return (key==x.key)})
-	if( user == -1 ) 
+	if( user == -1 ){
+		alert("Неверный логин или пароль")
 		return
+	} 
 	sign_form.style.display = "none"
 	profile(user)
 }
