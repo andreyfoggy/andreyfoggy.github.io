@@ -1,0 +1,17 @@
+/* Styles go here */
+
+button{
+  background-color:black;
+  padding:2px 5px;
+  margin-top:5px;
+  font-size:120%;
+  color:white;
+  border: none;
+  border-radius:3px;
+}
+button:hover{
+  background-color:grey;
+}
+form{
+  display:none;
+}
