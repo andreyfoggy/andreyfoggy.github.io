@@ -8,6 +8,8 @@ var fields = [userName,city,age]
 
 button_save.onclick = function(event){
   fields.forEach(x=>{
+    if(!x.value)
+      x.value = "..."
     document.cookie = (`${x.id}=${x.value}`)
   })
   form.style.display = "none"
@@ -22,5 +24,3 @@ button_sign.onclick = function(event){
     x.value = cookies[count++]
   })
 }
-
-
