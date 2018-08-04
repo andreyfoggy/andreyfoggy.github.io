@@ -21,6 +21,10 @@ button_sign.onclick = function(event){
   var cookies = document.cookie.split(";",3).map(x=>x.split("=")[1])
   var count = 0
   fields.forEach(x=>{
-    x.value = cookies[count++]
+    if(cookies[count])
+       x.value = cookies[count++]
+    else
+        x.value = "..."
   })
 }
+
