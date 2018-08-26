@@ -1,0 +1,20 @@
+@media only screen and (max-width:1000px){
+    .line{
+        display:none;
+    }
+@media only screen and (max-width: 880px){
+	.header_contacts{
+		display:none;
+	}
+}
+@media only screen and (max-width: 880px){
+	.calendar{
+		display:none;
+	}
+	.wall >h1{
+		font-size:32px;
+	}
+	.wall > h3{
+		font-size:25px;
+	}
+}

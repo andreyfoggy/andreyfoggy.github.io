@@ -1,0 +1,128 @@
+/*NAVIGATION*/
+
+header{
+	width:100%;
+	height:136px;
+}
+nav{
+	position:absolute;
+	top:136px;
+	left:0;
+	width:100%;
+	height: 41px;
+	background-color: rgba(123, 181, 197,0.239);
+	z-index:10;
+}
+li{
+	list-style: none;
+}
+ul{
+	width:70%;
+	margin:auto;
+}
+#logo{
+	display: block;
+}
+.basic_wrapper{
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	width:75%;
+	margin:auto;
+	height:136px;
+}
+.header_adress {
+	font-size:19px;
+    color: rgb(19, 120, 147);
+  
+}
+.header_flex{
+	display:flex;
+}
+.header_contacts{
+	font-size: 19px;
+	font-family: mvid;
+	display: inline-block;
+	color: rgb(19, 120, 147);
+}
+.header_adress{
+	margin-right:30px;
+}
+.navigation{
+	display:flex;
+	flex-flow: row nowrap;
+	justify-content: space-evenly;
+}
+.navigation a {
+  font-family: mvid;
+  text-decoration: none;
+  display: block;
+  padding:10px;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  white-space: nowrap;
+}
+.navigation a:hover{
+	color: rgb(230, 0, 152);
+}
+.icon1{
+	background: url(../img/point.png);
+	height: 41px;
+    width: 31px;
+    margin-right: 7px;
+    display: inline-block;}
+.icon2{
+	margin-right: 7px;
+	background: url(../img/mobile.png);
+	height: 37px;
+    width: 22px;
+    display: inline-block;
+}
+.icon1:hover,.icon2:hover{
+	border-bottom: 5px solid blue;
+}
+			/*SECOND PART*/
+.wall{
+	position:absolute;
+	top:136px;
+	left:0px;
+	z-index:2;
+	width:100%;
+	height:567px;
+}
+.wall_wrapper{
+	width:100%;
+	height:567px;
+	background-color: blue;
+	background: url(../img/top_view.jpg) no-repeat center center scroll; 
+	background-size: cover;
+}
+.calendar, .mountains{
+	font-family: mvid;
+	text-align:center;
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+}
+.calendar{
+	letter-spacing: 2px;
+	padding:23px 0px 0px 35px;
+	margin-right:80px;
+	font-size:20px;
+	background: url(../img/Calendar.png) no-repeat left;
+	text-align:center;
+}
+.mountains{
+	letter-spacing: 1.5px;
+	font-size:20px;
+	padding-left:70px;
+	padding-top:26px;
+	background: url(../img/mountains.png) no-repeat left;
+	height:36px;
+}
+.flex_styling{
+	margin-top:30px;
+	display:flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
