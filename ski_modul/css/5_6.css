@@ -1,0 +1,110 @@
+.tour_program{
+	position: relative;
+	width:100%;
+	background-color: blue;
+	background: url(../img/mount_ground.png) no-repeat center center scroll; 
+	background-size: cover;
+	padding-bottom: 40px;
+}
+.tour_activity{
+	margin:auto;
+	width:100%;
+	max-width: 1200px;
+}
+.day_circle{
+  position: relative;
+  margin: 50px auto 30px auto;
+  border-radius: 50%;
+  background-color: rgb(19, 120, 147);
+  width: 87px;
+  height: 87px;
+}
+.day_text{
+  display:block;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-60%);
+  width:48px;
+  height:42px;
+  font-size: 20px;
+  font-family: mvid;
+  color: rgb(241, 239, 230);
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+.flex_for_tour{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.line{
+	width:0px;
+	height:250px;
+	border-right: 3px solid rgb(19, 120, 147);
+}
+.tour_img{
+	display:block;
+	width:445px;
+	height:227px;
+}
+
+.sec_wrapper > section{
+	display: block;
+	margin:0 42px 0 42px;
+	font-size: 16px;
+    font-family: mvid;
+    line-height: 2;
+
+}
+h4{
+	padding-bottom: 30px;
+}
+.not_bold{
+	font-weight: normal;
+}
+.bold{
+	font-weight: bold;
+}
+.sec_wrapper{
+	width:445px;
+	height: 227px;
+	flex-shrink: 0;
+}
+.button_mid{
+	display: block;
+	margin:40px auto 0px auto;
+}
+/*GUIDES */
+/*.guide_img > section{
+	display: inline-block;
+	color:red;
+}*/
+.guides{
+	background: url(../img/map2.png) repeat center center scroll;
+	width:100%;
+	padding-bottom: 30px;
+}
+.flex_guides{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.man{
+	height:158px;
+	font-size: 120%;
+	display: flex;
+	justify-content: space-between;
+	font-weight: bold;
+}
+.guide_img{
+	display:block;
+	margin-right:15px;
+}
+section > span{
+	font-family: mvid;
+	font-size: 115%;
+	font-weight: bold;
+	line-height: 3;
+}

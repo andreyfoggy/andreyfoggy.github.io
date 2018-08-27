@@ -1,0 +1,165 @@
+/*NAVIGATION*/
+
+header{
+	width:100%;
+	position: fixed;
+	z-index:20;
+}
+header > div{
+	background-color: white;
+}
+nav{
+	width:100%;
+	background-color: rgba(123, 181, 197,0.239);
+}
+li{
+	list-style: none;
+}
+ul{
+	width:70%;
+	margin:auto;
+}
+.anchor{
+	position: absolute;
+	top:-170px;
+	left: 0;
+}
+#logo{
+	display: block;
+}
+#logo:hover{
+	filter:contrast(200%);
+}
+.basic_wrapper{
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	width:85%;
+	margin:auto;
+	height:136px;
+}
+.header_adress {
+	font-size:19px;
+    color: rgb(19, 120, 147);
+  
+}
+.header_flex{
+	display:flex;
+}
+.header_contacts{
+	font-size: 19px;
+	font-family: mvid;
+	display: inline-block;
+	color: rgb(19, 120, 147);
+}
+.header_adress{
+	margin-right:30px;
+}
+.navigation{
+	display:flex;
+	flex-wrap:nowrap;
+	justify-content: space-evenly;
+}
+.navigation a {
+  font-family: mvid;
+  text-decoration: none;
+  display: block;
+  padding:10px;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  white-space: nowrap;
+}
+.navigation a:hover{
+	color: rgb(230, 0, 152);
+}
+.icon1{
+	background: url(../img/point.png);
+	height: 41px;
+    width: 31px;
+    margin-right: 7px;
+    display: inline-block;
+}
+.icon2{
+	margin-right: 7px;
+	background: url(../img/mobile.png);
+	height: 37px;
+    width: 22px;
+    display: inline-block;
+}
+.header_contacts:hover{
+	color:blue;
+}
+			/*SECOND PART*/
+.wall{
+	position: relative;
+	height:567px;
+	width:100%;
+  	background-color: blue;
+  	background: url(../img/top_view.jpg) no-repeat center center scroll; 
+  	background-size: cover;
+
+}
+.wall_opacity_layer{
+  position:relative;
+  z-index:-2;
+  background-color: rgba(0, 0, 0,0.29);
+  position: absolute;
+  left: 0px;
+  top: 177px;
+  height: 526px;
+  width:100%;
+  z-index:1;
+  width:100%;
+  height:567px;
+  background-color: blue;
+  background: url(../img/top_view.jpg) no-repeat center center scroll; 
+  background-size: cover;
+
+}
+.fix{
+	padding-top: 136px;
+}
+.wall_wrapper{
+	width:100%;
+	height:567px;
+	background-color: blue;
+	background: url(../img/top_view.jpg) no-repeat center center scroll; 
+	background-size: cover;
+}
+.calendar, .mountains{
+	font-family: mvid;
+	text-align:center;
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+}
+.calendar{
+	letter-spacing: 2px;
+	padding:23px 0px 0px 35px;
+	margin-right:80px;
+	font-size:20px;
+	background: url(../img/Calendar.png) no-repeat left;
+	text-align:center;
+}
+.mountains{
+	letter-spacing: 1.5px;
+	font-size:20px;
+	padding-left:70px;
+	padding-top:26px;
+	background: url(../img/mountains.png) no-repeat left;
+	height:36px;
+}
+.flex_styling{
+	margin-top:30px;
+	display:flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+.burger > span{
+	font-size:24px;
+	padding-left: 10px;
+	display: none;
+}
+.burger > span:hover{
+	color: black;
+}
