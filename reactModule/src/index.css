@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: aqua;
+  background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/black-sand-beach-punalu-u-beach-1489522998.jpg);
+}
+.Main{
+  border: 5px solid goldenrod;
+  border-radius: 15%;
+ height:600px;
+ width:620px;
+ margin:auto;
+ background-color: rgb(168, 136, 30);
+
+}
+.Link{
+  display: block;
+  width:400px;
+  margin:auto;
+  background-color: transparent;
+  font-weight: bold;
+  text-align: center;
+  padding:10px;
+  color:rgb(165, 77, 55);
+  font-size:30px;
+  text-decoration:none;
+}
+
+button{
+  display: block;
+  width:400px;
+  margin:auto;
+  background-color:rgb(165, 77, 55);
+  font-weight: bold;
+  text-align: center;
+  padding:10px;
+  color:burlywood;
+  font-size:30px;
+  text-decoration:none;
+}
+button:hover{
+  color:white;
+}
+.Link:hover{
+  color:white;
+}
+.nickInput{
+  display:block;
+  width:400px;
+  padding-top:15px;
+  margin:auto;
+  background-color: transparent;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.record{
+  width:300px;
+  margin: auto;
+  padding:10px 20px;
+  background-color: rgb(202, 248, 250);
+  border: 2px solid  rgb(2, 221, 233);
+}
+b{
+  display:inline-block;
+  width: 100px;
+}
+.result{
+  text-align: center;
+  color: burlywood;
+  font-weight: bold;
+  font-size: 18px;
+}
+canvas{
+  display: block;
+  margin:auto;
+}
+.scoreLine{
+  display: block;
+  width:400px;
+  margin:auto;
+  background-color: transparent;
+  font-weight: bold;
+  text-align: left;
+  padding:10px;
+  color:rgb(165, 77, 55);
+  font-size:30px;
+  text-decoration:none;
+}
+.flex-wrapper{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.flex-link{
+  flex-grow:100;
+  flex-shrink:0;
+}
+.flex-item{
+  flex-grow: 1;
+}
+.top{
+  font-weight: bold;
+  background-color: antiquewhite;
+}
